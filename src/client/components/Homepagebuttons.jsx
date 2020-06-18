@@ -1,10 +1,15 @@
 import React from 'react'
+import { Link } from 'react-router-dom'
 
 const Homepagebuttons = () => {
     return (
         <div>
-            <button>Create Teams</button>
-            <button>Add Players</button>
+            <div>
+                <Link to={`/Createteams`}>Create Teams</Link>
+            </div>
+            <div>
+                <Link to={`/addplayers`}>Add players</Link>
+            </div>     
         </div>
     )
 }
