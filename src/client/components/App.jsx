@@ -2,12 +2,13 @@ import React from 'react'
 import { Route } from 'react-router-dom'
 
 import Title from './Title'
+import Homepagebuttons from './Homepagebuttons'
 
 const App = () => {
     return (
       <div>
-        <h1>React-Teams</h1>
         <Route path='/' component={Title} />
+        <Route path='/' component={Homepagebuttons} />
       </div>
     )
 }
