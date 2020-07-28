@@ -1,43 +1,13 @@
-# 🔥react-tinderbox🔥
+# Teams
 
-React boilerplate to make new projects easier to get started
+This project was started mid-way through my course with EDA. The project uses technologies we were taught at EDA such as React and Redux.
 
-When cloning, run `yarn` to install all dependencies. Then `yarn start` to start up the server.
+## Overview
 
-## This boilerplate contains
+This has been a pet project of mine over the past two months. Being a keen social indoor football play I wanted a fair solution to the age old tradition of picking teams. The application orginally started to sort people entered into the database into two teams. However, my ideas have grown since then and I am working to add some further functionality. My goals for the Teams application include:
+- sorting people into multiple teams (more than two)
+- the ability to choose team names
+- testing for all components
+- and so it looks cool a p5 moving background (I have never used p5 before but I am keen to use this creative library)
 
-### Dependencies
 
-#### React (with JSX)
-
-- react
-
-- react-dom
-
-### Dev Dependencies
-
-#### Babel
-
-- @babel/cli
-
-- @babel/core
-
-- @babel/plugin-proposal-class-properties
-
-- @babel/preset-env
-
-- @babel/preset-react
-
-- babel-loader
-
-#### webpack
-
-- webpack
-
-- webpack-cli
-
-- webpack-dev-server
-
-- html-webpack-plugin
-
-created by Lane Wirihana Le Prevost-Smith
